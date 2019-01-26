@@ -19,6 +19,7 @@
 
             <Button
                 android:id="@+id/hello"
+                android:onClick="speak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hello"
@@ -30,6 +31,7 @@
 
             <Button
                 android:id="@+id/please"
+                android:onClick="speak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Please"
@@ -42,6 +44,7 @@
 
             <Button
                 android:id="@+id/welcome"
+                android:onClick="speak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Welcome"
@@ -53,6 +56,7 @@
 
             <Button
                 android:id="@+id/mynameis"
+                android:onClick="speak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Name is"
