@@ -17,15 +17,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void speak(View view) {
 
+        // get view item id
         int button_id = view.getId();
 
-        String tapped_button =  view.getResources().getResourceEntryName(button_id);
+        // get view resource name
+        String tapped_button = view.getResources().getResourceEntryName(button_id);
 
-        int resource_id = getResources().getIdentifier(tapped_button, "raw", "com.carbontech.alejo.myapplication");
+        int resource = getResources().getIdentifier(tapped_button, "raw", "com.carbontech.alejo.myapplication");
 
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, resource_id);
-
-        mediaPlayer.start();
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, resource);
+         mediaPlayer.start();
     }
 }
-
