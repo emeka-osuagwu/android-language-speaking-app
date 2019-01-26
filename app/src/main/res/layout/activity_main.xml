@@ -18,7 +18,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/hello"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hello"
@@ -29,10 +29,10 @@
                 app:layout_rowWeight="1" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/please"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
+                android:text="Please"
                 app:layout_column="1"
                 app:layout_columnSpan="1"
                 app:layout_columnWeight="1"
@@ -41,10 +41,10 @@
                 app:layout_rowWeight="1" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/welcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
+                android:text="Welcome"
                 app:layout_column="0"
                 app:layout_columnSpan="1"
                 app:layout_columnWeight="1"
@@ -52,10 +52,10 @@
                 app:layout_row="1" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/mynameis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
+                android:text="My Name is"
                 app:layout_column="1"
                 app:layout_columnSpan="1"
                 app:layout_columnWeight="1"
